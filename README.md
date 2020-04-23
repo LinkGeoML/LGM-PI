@@ -7,11 +7,11 @@ There are two separated sections when executing the plugin. The first one is the
 trained based on the classifier that the user has chosen.Train the algorithm using csv files. The second one is the evaluating section. 
 
 Available classifiers are: 
-  SVM (Support Vector Machine)
-  Decision Tree
-  Random Forest
-  Extra Trees
-  XGBoost
+  SVM (Support Vector Machine),
+  Decision Tree,
+  Random Forest,
+  Extra Trees,
+  XGBoost,
   MLP (Multi Layer Perceptron)
   
 Furthermore, after training the algorithm, the user is able to use a dataset (.csv) with polygon multipoints and extract the appropriate
