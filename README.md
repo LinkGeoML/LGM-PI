@@ -26,3 +26,29 @@ Furthermore, after training the algorithm, the user is able to use a dataset (.c
 information (evaluate section).If the user had chosen more than one classifier in the training part, the best score classifier is used 
 in the evaluation division.
 
+
+* Model Training
+------
+Step 1 
+The user defines the dataset that is going to be used during the training section, through the Train Data button.
+------
+Step 2
+The user defines the classifier(s) in order to produce the appropriate models when the training is completed by selecting the 
+checkboxes from the Set Classifier(s) section.
+------
+Step 3
+The user starts the training procedure through Run Model Training button.
+
+* Evaluating Section
+------
+Step 1
+The user defines the dataset that is going to be classified through the Test Data button.
+------
+Step 2
+The user selects the desired classifier in order to execute the evaluation of the dataset. The classifier should be one of 
+the classifiers that was used during the training procedure.
+------
+Step 3 
+The evaluation of the input dataset is executed by pressing the Model Evaluation button.
+
+
