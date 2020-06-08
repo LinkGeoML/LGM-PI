@@ -160,10 +160,12 @@ class PolygonClassification:
     def initGui(self):
         """Create the menu entries and toolbar icons inside the QGIS GUI."""
 
-        icon_path = ':/plugins/polygon_classification/icon.png'
+        #icon_path = ':/plugins/polygon_classification/icon2.png'
+        icon_path = '.\\LGMicon2.png'
+        #icon_path = ':/plugins/polygon_classification/LGMicon2.png'
         self.add_action(
             icon_path,
-            text=self.tr(u'Classification of polygon types'),
+            text=self.tr(u'LGM-Classification of polygon types'),
             callback=self.run,
             parent=self.iface.mainWindow())
 
@@ -198,3 +200,7 @@ class PolygonClassification:
             # Do something useful here - delete the line containing pass and
             # substitute with your code.
             pass
+                		
+			
+			
+			
